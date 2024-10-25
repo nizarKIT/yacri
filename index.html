@@ -1548,12 +1548,23 @@
                     .header-type-3 #slidedown-cart li {
                       border-bottom: 1px solid #d02424;
                     }
-.pages
+#pages
 {
   z-index: -1;
   margin-top: -80px;
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 576px) {
+  #pages
+{
+  z-index: -1;
+  font-size: 7px;
+  
+  margin-top: -35px;
+  padding-bottom: 20px;
+}
+}
+
                   /* Header borders */
                   </style>
                 </div>
@@ -1569,8 +1580,10 @@
  <span class="namepng" ><img id="namepng" src="name.png" style="padding-top: 20px;" alt=""></span> 
 
   </center>
-  <div class="pages">
+
+  <div class="" id="pages">
     <center>
+      
       <a href=""><b>NATUROPATHY |</b> </a>
       <a href=""><b>YOGA |</b></a>
       <a href=""><b>ACUPUNTURE |</b></a>
@@ -1580,6 +1593,7 @@
     </center>
   
   </div>
+
 </div>
 
   <main class="main-content">
