@@ -13158,6 +13158,7 @@ ul#featured.owl-carousel .owl-item,
 
 .contact-address {
     float: left;
+    margin-left: ;
     width: 100%;
     background: url(contact_bg_img290f.html?4992) no-repeat
 }
@@ -25738,12 +25739,12 @@ q:before {
     position: absolute
 }
 
-.about-us .block3-column-2 p {
+.treatment .block3-column-2 p {
     max-width: 600px;
     margin: auto
 }
 
-.about-us .block3-column-2 {
+.treatment .block3-column-2 {
     padding: 0 5%;
     text-align: center;
     transition: all .3s linear 0s;
@@ -25759,13 +25760,13 @@ q:before {
 }
 
 @media screen and (max-width: 967px) {
-    .about-us .block3-column-2 {
+    .treatment .block3-column-2 {
         width: 50%
     }
 }
 
 @media screen and (max-width: 1599px) {
-    .about-us .block3-column-2 {
+    .treatment .block3-column-2 {
         padding-top: 5%;
         width: 100%;
         position: static;
@@ -25777,27 +25778,27 @@ q:before {
     }
 }
 
-.about-us .block3 .content_section .support_thumb img {
+.treatment .block3 .content_section .support_thumb img {
     display: inline-block;
     margin-bottom: 15px
 }
 
-.about-us .border-title .short-des {
+.treatment .border-title .short-des {
     width: 60%;
     margin: 0 auto
 }
 
-.about-us .border-title {
+.treatment .border-title {
     text-align: center;
     margin-bottom: 40px;
     position: relative
 }
 
-.about-us .block3 {
+.treatment .block3 {
     position: relative
 }
 
-.about-us .team-wrapper {
+.treatment .team-wrapper {
     -webkit-transition: all .3s linear 0s;
     -moz-transition: all .3s linear 0s;
     -ms-transition: all .3s linear 0s;
@@ -25807,25 +25808,25 @@ q:before {
     width: 100%
 }
 
-.about-us .section-five .grid__item.wide--one-third {
+.treatment .section-five .grid__item.wide--one-third {
     padding: 0 10px
 }
 
 @media screen and (max-width: 767px) {
 
-    .about-us h5.dt-sc-toggle-accordion,
-    .about-us .dt-sc-toggle-accordion.h5 {
+    .treatment h5.dt-sc-toggle-accordion,
+    .treatment .dt-sc-toggle-accordion.h5 {
         font-size: 14px
     }
 }
 
-.about-us .team-detail {
+.treatment .team-detail {
     padding: 30px 10px;
     text-align: center
 }
 
-.about-us .team-wrapper h6,
-.about-us .team-wrapper .h6 {
+.treatment .team-wrapper h6,
+.treatment .team-wrapper .h6 {
     position: relative;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -25833,29 +25834,29 @@ q:before {
     font-size: 14px
 }
 
-.about-us .social-icon li {
+.treatment .social-icon li {
     display: inline-block;
     margin: 0 3px
 }
 
-.about-us .social-icon a {
+.treatment .social-icon a {
     font-size: 14px;
     padding: 8px
 }
 
-.about-us .block3 .post-large--one-half {
+.treatment .block3 .post-large--one-half {
     margin-right: 0;
     width: 50%
 }
 
 @media screen and (max-width: 767px) {
-    .about-us .block3 .post-large--one-half {
+    .treatment .block3 .post-large--one-half {
         width: 100%
     }
 }
 
-.about-us .main-title h6,
-.about-us .main-title .h6 {
+.treatment .main-title h6,
+.treatment .main-title .h6 {
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
@@ -25863,7 +25864,7 @@ q:before {
     margin-bottom: 0
 }
 
-.about-us .block1 .content_section {
+.treatment .block1 .content_section {
     -webkit-transition: all .3s linear 0s;
     -moz-transition: all .3s linear 0s;
     -ms-transition: all .3s linear 0s;
@@ -25875,14 +25876,14 @@ q:before {
     padding: 30px
 }
 
-.about-us .block1 .support_icon {
+.treatment .block1 .support_icon {
     margin-bottom: 30px
 }
 
-.about-us .section-six .btn,
-.about-us .section-six .btn--secondary,
-.about-us .section-six .btn--tertiary,
-.about-us .section-six input[type=submit] {
+.treatment .section-six .btn,
+.treatment .section-six .btn--secondary,
+.treatment .section-six .btn--tertiary,
+.treatment .section-six input[type=submit] {
     float: right;
     margin-left: 15px;
     margin-top: 30px
@@ -25890,39 +25891,39 @@ q:before {
 
 @media screen and (max-width: 967px) {
 
-    .about-us .section-six .btn,
-    .about-us .section-six .btn--secondary,
-    .about-us .section-six .btn--tertiary,
-    .about-us .section-six input[type=submit] {
+    .treatment .section-six .btn,
+    .treatment .section-six .btn--secondary,
+    .treatment .section-six .btn--tertiary,
+    .treatment .section-six input[type=submit] {
         float: left;
         margin-left: 0
     }
 }
 
-.about-us .grid-uniform.section-six {
+.treatment .grid-uniform.section-six {
     float: left;
     width: 100%;
     padding: 100px 20px
 }
 
-.about-us ul {
+.treatment ul {
     margin: 0;
     padding: 0
 }
 
-.about-us .block1 .support_section h4,
-.about-us .block1 .support_section .h4 {
+.treatment .block1 .support_section h4,
+.treatment .block1 .support_section .h4 {
     text-transform: capitalize;
     font-size: 20px
 }
 
-.about-us .dt-sc-toggle-frame .dt-sc-toggle-accordion.active,
-.about-us .dt-sc-toggle-frame .dt-sc-toggle-accordion {
+.treatment .dt-sc-toggle-frame .dt-sc-toggle-accordion.active,
+.treatment .dt-sc-toggle-frame .dt-sc-toggle-accordion {
     padding: 15px 15px 15px 70px;
     border: none
 }
 
-.about-us .intro-video .video-player {
+.treatment .intro-video .video-player {
     left: 0;
     margin: auto;
     position: absolute;
@@ -25936,7 +25937,7 @@ q:before {
     border-radius: 10px
 }
 
-.about-us .block1 .support_icon {
+.treatment .block1 .support_icon {
     display: inline-block;
     font-size: 20px;
     height: 50px;
@@ -25945,22 +25946,22 @@ q:before {
     width: 50px
 }
 
-.about-us .block4 {
+.treatment .block4 {
     float: left;
     padding: 0;
     width: 100%
 }
 
-.about-us .block1 .grid__item li {
+.treatment .block1 .grid__item li {
     float: left;
     margin: 0 10px 20px
 }
 
-.about-us .intro-video-text {
+.treatment .intro-video-text {
     position: relative
 }
 
-.about-us .dt-sc-toggle-frame-set .dt-sc-toggle-accordion:before {
+.treatment .dt-sc-toggle-frame-set .dt-sc-toggle-accordion:before {
     cursor: pointer;
     font-size: 24px;
     content: "\f107";
@@ -25974,26 +25975,26 @@ q:before {
     width: 50px
 }
 
-.about-us .dt-sc-toggle-frame-set .dt-sc-toggle-accordion.active:before {
+.treatment .dt-sc-toggle-frame-set .dt-sc-toggle-accordion.active:before {
     content: "\f107"
 }
 
-.about-us .grid-uniform.section-five {
+.treatment .grid-uniform.section-five {
     float: left;
     width: 100%
 }
 
-.about-us .dt-sc-toggle-frame .dt-sc-toggle-content {
+.treatment .dt-sc-toggle-frame .dt-sc-toggle-content {
     border: medium none;
     padding: 30px
 }
 
-.about-us .section-six p {
+.treatment .section-six p {
     width: 80%;
     margin: 0
 }
 
-.about-us .block1 .support_icon {
+.treatment .block1 .support_icon {
     -webkit-transition: all .3s linear 0s;
     -moz-transition: all .3s linear 0s;
     -ms-transition: all .3s linear 0s;
@@ -26007,28 +26008,28 @@ q:before {
     width: 90px
 }
 
-.about-us .icon-wrapper {
+.treatment .icon-wrapper {
     float: left;
     margin: -45px 0 30px;
     width: 100%
 }
 
-.about-us .block1 .content_section {
+.treatment .block1 .content_section {
     padding: 0 30px 30px
 }
 
 @media screen and (max-width: 1199px) {
-    .about-us .block1 .content_section {
+    .treatment .block1 .content_section {
         padding: 0 20px 20px
     }
 }
 
-.about-us .block1 .grid__item li {
+.treatment .block1 .grid__item li {
     margin: 40px 10px 60px
 }
 
-.about-us .block1 .support_section h4:before,
-.about-us .block1 .support_section .h4:before {
+.treatment .block1 .support_section h4:before,
+.treatment .block1 .support_section .h4:before {
     transition: all .3s linear 0s;
     bottom: -2px;
     content: "";
@@ -26041,8 +26042,8 @@ q:before {
     z-index: 1
 }
 
-.about-us .block1 .support_section h4:after,
-.about-us .block1 .support_section .h4:after {
+.treatment .block1 .support_section h4:after,
+.treatment .block1 .support_section .h4:after {
     transition: all .3s linear 0s;
     bottom: 0;
     content: "";
@@ -26054,14 +26055,14 @@ q:before {
     width: 70px
 }
 
-.about-us .block1 .support_section h4,
-.about-us .block1 .support_section .h4 {
+.treatment .block1 .support_section h4,
+.treatment .block1 .support_section .h4 {
     margin-bottom: 30px;
     padding-bottom: 20px;
     position: relative
 }
 
-.about-us .social-icon {
+.treatment .social-icon {
     -webkit-transition: all .3s linear 0s;
     -moz-transition: all .3s linear 0s;
     -ms-transition: all .3s linear 0s;
@@ -26076,12 +26077,12 @@ q:before {
     transition: .3s linear
 }
 
-.about-us .team-img {
+.treatment .team-img {
     position: relative
 }
 
-.about-us .team-img:after,
-.about-us .team-img:before {
+.treatment .team-img:after,
+.treatment .team-img:before {
     -webkit-transition: all .3s linear 0s;
     -moz-transition: all .3s linear 0s;
     -ms-transition: all .3s linear 0s;
@@ -26094,21 +26095,21 @@ q:before {
     transition: all .3s linear 0s
 }
 
-.about-us .team-wrapper:hover .team-img:after,
-.about-us .team-wrapper:hover .team-img:before {
+.treatment .team-wrapper:hover .team-img:after,
+.treatment .team-wrapper:hover .team-img:before {
     height: 50%;
     left: 0
 }
 
-.about-us .team-img:after {
+.treatment .team-img:after {
     top: 0
 }
 
-.about-us .team-img:before {
+.treatment .team-img:before {
     bottom: 0
 }
 
-.about-us .social-icon a {
+.treatment .social-icon a {
     font-size: 14px;
     padding: 0;
     height: 40px;
@@ -26119,25 +26120,25 @@ q:before {
     text-align: center
 }
 
-.about-us .team-wrapper:hover .social-icon {
+.treatment .team-wrapper:hover .social-icon {
     opacity: 1;
     bottom: 40px
 }
 
-.about-us .block4 .post-large--one-half {
+.treatment .block4 .post-large--one-half {
     margin-right: 3%;
     width: 48%
 }
 
 @media screen and (max-width: 767px) {
-    .about-us .block4 .post-large--one-half {
+    .treatment .block4 .post-large--one-half {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5%
     }
 }
 
-.about-us .block4 .post-large--one-half:last-child {
+.treatment .block4 .post-large--one-half:last-child {
     margin-right: 0
 }
 
@@ -26203,15 +26204,15 @@ q:before {
     transform: translateY(-50%)
 }
 
-.about-us .section-six .btn:hover,
-.about-us .section-six .btn--secondary:hover,
-.about-us .section-six .btn--tertiary:hover,
-.about-us .section-six input[type=submit]:hover {
+.treatment .section-six .btn:hover,
+.treatment .section-six .btn--secondary:hover,
+.treatment .section-six .btn--tertiary:hover,
+.treatment .section-six input[type=submit]:hover {
     background-color: #68605e !important;
     color: #fff !important
 }
 
-.about-us .intro-video .video-player :after {
+.treatment .intro-video .video-player :after {
     content: "";
     position: absolute;
     z-index: 0;
