@@ -1064,6 +1064,15 @@
     data-shop-id="6748536868" data-render-region="gcp-asia-southeast1" data-page-type="index"
     data-theme-instance-id="16732356644" data-monorail-region="shop_domain"
     data-resource-timing-sampling-rate="10"></script>
+    <style>
+@media only screen and (max-width: 576px) {
+  .contact_us
+  {
+    font-size: 10px;
+  }
+}
+
+    </style>
 </head>
 
 <body id="accu-password-buddha" class="template-index">
@@ -1092,11 +1101,14 @@
 
 
                   <li>
-                    <ul class="top_bar_right">
-                      <li><span>Call Us : +91 88257 89465</span></li>
+                    <ul >
+                      <li><span class="contact_us">Call Us : +91 88257 89465</span></li>
 
                       <li>
-                       +91 72002 54770
+                        <span class="contact_us">
+                          +91 72002 54770
+                        </span>
+                     
                       </li>
                     </ul>
                   </li>
@@ -1536,17 +1548,68 @@
 #pages
 {
   z-index: -1;
-  margin-top: -80px;
-  padding-bottom: 20px;
+
+  padding-top: 0px;
+
+  padding-bottom: 10px;
 }
+
+.blink
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(236, 218, 203);
+    padding: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 5px;
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes blink {
+    0% { color: rgb(189, 32, 32); }
+    50%{ color: rgb(189, 32, 32);}
+    100% {color: rgb(0, 0, 0); }
+}
+
 @media only screen and (max-width: 576px) {
+
   #pages
 {
-  z-index: -1;
-  font-size: 7px;
+  margin-top: -5px;
+  font-size: 10px;
   
-  margin-top: -35px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+
+  padding-bottom: 8px;
+ 
+}
+.blink
+{
+
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid rgb(236, 218, 203);
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 6px;
+    border-radius: 20px;
+
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+.mtitle{
+  font-size: 5vw;
 }
 }
 
@@ -1560,27 +1623,35 @@
       </header>
     </div>
   </div>
+ 
 <div class="container-fluid" style="background-color:#116466 ;">
   <center>
- <span class="namepng" ><img id="namepng" src="name.png" style="padding-top: 20px;" alt=""></span> 
+    
+    <span class="namepng" > <img class="normal-logo" width="100px" style="margin-top: 10px; "  src="cdn/shop/t/2/assets/logo5d901.png?v=89476430785516106241551332190"
+      alt="" itemprop="logo" /></span> 
 
   </center>
-
-  <div class="" id="pages">
-    <center>
-      
-      <a href="blogs/news/naturopathy.html"><b>NATUROPATHY |</b> </a>
-      <a href="blogs/news/yoga.html"><b>YOGA |</b></a>
-      <a href="blogs/news/acupunture.html"><b>ACUPUNTURE |</b></a>
-      <a href="blogs/news/homeopathy.html"><b>HOMEOPATHY |</b></a>
-      <a href="blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY |</b></a>
-      <a href="blogs/news/siddha.html"><b>SIDDHA</b></a>
-    </center>
-  
-  </div>
-
+<div>
+  <center>
+    <h1 class="mtitle" style="font-family: 'Times New Roman', Times, serif;font-size: 3vw;  padding-bottom: 10px;color: #f2e396;">YUKTHI AYUSH CLINIC & RESEARCH CENTER</h1>
+  </center>
+  <h1></h1>
 </div>
 
+
+</div>
+<div class="" id="pages">
+  <center>
+    
+    <a class="blink" href="blogs/news/naturopathy.html"><b>NATUROPATHY </b> </a>
+    <a class="blink" href="blogs/news/yoga.html"><b>YOGA </b></a>
+    <a class="blink" href="blogs/news/acupunture.html"><b>ACUPUNTURE </b></a>
+    <a class="blink" href="blogs/news/homeopathy.html"><b>HOMEOPATHY </b></a>
+    <a class="blink" href="blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY </b></a>
+    <a class="blink" href="blogs/news/siddha.html"><b>SIDDHA</b></a>
+  </center>
+
+</div>
   <main class="main-content">
     <div class="grid-uniform">
       <div class="grid__item">
