@@ -1388,7 +1388,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(236, 218, 203) 100
         <!-- Description -->
         <div class="mb-3">
           <label for="description" class="form-label">Description</label>
-          <textarea class="form-control" id="description" rows="4" placeholder="Enter additional details" required></textarea>
+          <textarea class="form-control" id="description" rows="4" placeholder="Enter additional details"></textarea>
         </div>
   
         <!-- Send Button -->
@@ -1407,20 +1407,20 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(236, 218, 203) 100
         const description = document.getElementById('description').value;
   
         // Validate form data
-        if (!name || !mobile || !email || !treatment || !slot || !description) {
+        if (!name || !mobile || !email || !treatment || !slot) {
           alert('Please fill out all fields.');
           return;
         }
   
         // Format WhatsApp message
         const whatsappMessage = `Hello,%0A%0AHere are the details for an appointment:%0A%0A` +
-          `Name: ${encodeURIComponent(name)}%0A` +
-          `Mobile: ${encodeURIComponent(mobile)}%0A` +
-          `Email: ${encodeURIComponent(email)}%0A` +
-          `Treatment: ${encodeURIComponent(treatment)}%0A` +
-          `Preferred Slot: ${encodeURIComponent(slot)}%0A` +
-          `Description: ${encodeURIComponent(description)}%0A%0A` +
-          `Thank you!`;
+          `*Name:* ${encodeURIComponent(name)}%0A` +
+          `*Mobile:* ${encodeURIComponent(mobile)}%0A` +
+          `*Email:* ${encodeURIComponent(email)}%0A` +
+          `*Treatment:* ${encodeURIComponent(treatment)}%0A` +
+          `*Preferred Slot:* ${encodeURIComponent(slot)}%0A` +
+          `*Description:* ${encodeURIComponent(description)}%0A%0A` +
+          `*_Thank you!_*`;
   
         // Open WhatsApp
         const whatsappURL = `https://wa.me/+919943902608?text=${whatsappMessage}`;
