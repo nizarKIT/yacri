@@ -1064,6 +1064,19 @@
     data-shop-id="6748536868" data-render-region="gcp-asia-southeast1" data-page-type="index"
     data-theme-instance-id="16732356644" data-monorail-region="shop_domain"
     data-resource-timing-sampling-rate="10"></script>
+    <style>
+@media only screen and (max-width: 576px) {
+  .contact_us
+  {
+    font-size: 10px;
+    padding-left: 5px;
+   
+  }
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body id="accu-password-buddha" class="template-index">
@@ -1092,11 +1105,17 @@
 
 
                   <li>
-                    <ul class="top_bar_right">
-                      <li><span>Call Us : +91 88257 89465</span></li>
+                    <ul>
+                      <span class="">
+                        
+                   
+                      <li><span class="contact_us">Call Us : +91 88257 89465</span></li>
 
                       <li>
-                       +91 72002 54770
+                        <span class="contact_us">
+                          +91 72002 54770
+                        </span>
+                      </span>
                       </li>
                     </ul>
                   </li>
@@ -1536,17 +1555,70 @@
 #pages
 {
   z-index: -1;
-  margin-top: -80px;
-  padding-bottom: 20px;
+
+  padding-top: 0px;
+
+  padding-bottom: 10px;
 }
+
+.blink
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding: 3px;
+    text-decoration: none;
+    background-color: #116566;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 5px;
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes blink {
+    0% { color: #f2e396 ;}
+    50%{ color: #f2e396;}
+    100% {color: #fff; }
+}
+
 @media only screen and (max-width: 576px) {
+
   #pages
 {
-  z-index: -1;
-  font-size: 7px;
+  margin-top: -5px;
+  font-size: 10px;
   
-  margin-top: -35px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+
+  padding-bottom: 8px;
+ 
+}
+.blink
+{
+
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    background-color: #116566;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 6px;
+    border-radius: 20px;
+
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+.mtitle{
+  font-size: 5vw;
 }
 }
 
@@ -1560,27 +1632,58 @@
       </header>
     </div>
   </div>
+ 
 <div class="container-fluid" style="background-color:#116466 ;">
   <center>
- <span class="namepng" ><img id="namepng" src="name.png" style="padding-top: 20px;" alt=""></span> 
+    
+    <span class="namepng" > <img class="normal-logo" width="100px" style="margin-top: 10px; "  src="cdn/shop/t/2/assets/logo5d901.png?v=89476430785516106241551332190"
+      alt="" itemprop="logo" /></span> 
 
   </center>
-
-  <div class="" id="pages">
-    <center>
-      
-      <a href="blogs/news/naturopathy.html"><b>NATUROPATHY |</b> </a>
-      <a href="blogs/news/yoga.html"><b>YOGA |</b></a>
-      <a href="blogs/news/acupunture.html"><b>ACUPUNTURE |</b></a>
-      <a href="blogs/news/homeopathy.html"><b>HOMEOPATHY |</b></a>
-      <a href="blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY |</b></a>
-      <a href="blogs/news/siddha.html"><b>SIDDHA</b></a>
-    </center>
-  
-  </div>
-
+<div>
+  <center>
+    <h1 class="mtitle" style="font-family: 'Times New Roman', Times, serif;font-size: 3vw;  padding-bottom: 10px;color: #f2e396;">YUKTHI AYUSH CLINIC & RESEARCH CENTER</h1>
+  </center>
+  <h1></h1>
 </div>
 
+
+</div>
+<!-- <div class="container-fluid">
+  <div class="row text-center" id="pages">
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/naturopathy.html"><b>NATUROPATHY</b></a>
+    </div>
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/yoga.html"><b>YOGA</b></a>
+    </div>
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/acupunture.html"><b>ACUPUNTURE</b></a>
+    </div>
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/homeopathy.html"><b>HOMEOPATHY</b></a>
+    </div>
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY</b></a>
+    </div>
+    <div class="my-2 mx-0.2 col-lg-2 col-sm-6">
+      <a class="blink" href="blogs/news/siddha.html"><b>SIDDHA</b></a>
+    </div>
+  </div>
+</div> -->
+
+<div class="" id="pages">
+  <center>
+    
+    <a class="blink" href="blogs/news/naturopathy.html"><b>NATUROPATHY </b> </a>
+    <a class="blink" href="blogs/news/yoga.html"><b>YOGA </b></a>
+    <a class="blink" href="blogs/news/acupunture.html"><b>ACUPUNTURE </b></a>
+    <a class="blink" href="blogs/news/homeopathy.html"><b>HOMEOPATHY </b></a>
+    <a class="blink" href="blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY </b></a>
+    <a class="blink" href="blogs/news/siddha.html"><b>SIDDHA</b></a>
+  </center>
+
+</div>
   <main class="main-content">
     <div class="grid-uniform">
       <div class="grid__item">
@@ -1589,13 +1692,13 @@
           <div class="wrapper">
             <div class="home-slideshow">
               <div class="variable-width"
-                data-slick="{dots: true, slidesToScroll: 1,autoplay:false,fade: true,autoplaySpeed:5000">
+                data-slick="dots: true, slidesToScroll: 1,autoplay:false,fade: true,autoplaySpeed:5000">
                 <div class="slick-list slider_style_3 slider-428219d7-ea86-4e05-9c20-d16bc7cf6f97-list">
-                  <img src="cdn/shop/files/slider3_2000xcb00.jpg?v=1613526433" class="slide-img medium-down--hide"
-                    alt="" />
+                  <!-- <img src="/cdn/shop/files/naturo-slide.jpg" class=""
+                    alt="" /> -->
 
-                  <img src="cdn/shop/files/slide-bg3_767x0126.jpg?v=1613528108"
-                    class="slide-img wide--hide post-large--hide large--hide" alt="" />
+                  <img src="cdn/shop/files/naturo-slide.jpg"
+                 alt="" />
 
                   <div class="slider-content slider-content-bg" style="">
                     <div class="container">
@@ -1603,14 +1706,14 @@
                         <h2 class="slide-heading animated" style="
                               font-size: 100px;
 
-                              color: #68605e;
+                              color: #3d3938;
                             ">
-                          Acupuncture
+                          Naturopathy
                         </h2>
 
                     
 
-                        <a href="blogs/news/acupunture.html" class="slide-button animated btn">
+                        <a href="blogs/news/naturopathy.html" class="slide-button animated btn">
                         Know more
                         </a>
                       </div>
@@ -1645,10 +1748,10 @@
                 </div>
 
                 <div class="slick-list slider_style_3 slider-1551160482710-list">
-                  <img src="cdn/shop/files/slider2_2000xcb00.jpg?v=1613526433" class="slide-img medium-down--hide"
+                  <img src="cdn/shop/files/yoga-slide.jpg" class="slide-img medium-down--hide"
                     alt="" />
 
-                  <img src="cdn/shop/files/slide-bg2_767x0126.jpg?v=1613528108"
+                  <img src="cdn/shop/files/yoga-slide.jpg"
                     class="slide-img wide--hide post-large--hide large--hide" alt="" />
 
                   <div class="slider-content slider-content-bg" style="">
@@ -1657,14 +1760,14 @@
                         <h2 class="slide-heading animated" style="
                               font-size: 100px;
 
-                              color: #68605e;
+                              color: #3d3938;
                             ">
-                         Naturopathy
+                         Yoga
                         </h2>
 
                       
 
-                        <a href="blogs/news/naturopathy.html" class="slide-button animated btn">
+                        <a href="blogs/news/yoga.html" class="slide-button animated btn">
                           Know more
                         </a>
                       </div>
@@ -1699,10 +1802,10 @@
                 </div>
 
                 <div class="slick-list slider_style_3 slider-1551160645059-list">
-                  <img src="cdn/shop/files/slider1_2000xcb00.jpg?v=1613526433" class="slide-img medium-down--hide"
+                  <img src="cdn/shop/files/accu-slide.jpg" class="slide-img medium-down--hide"
                     alt="" />
 
-                  <img src="cdn/shop/files/slide-bg1_767x0126.jpg?v=1613528108"
+                  <img src="cdn/shop/files/accu-slide.jpg"
                     class="slide-img wide--hide post-large--hide large--hide" alt="" />
 
                   <div class="slider-content slider-content-bg" style="">
@@ -1711,7 +1814,60 @@
                         <h2 class="slide-heading animated" style="
                               font-size: 100px;
 
-                              color: #68605e;
+                              color: #3d3938;
+                            ">
+                          Acupunture
+                        </h2>
+
+                      
+
+                        <a href="blogs/news/acupunture.html" class="slide-button animated btn">
+                       Know more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                    .slider_style_3 .slider-content {
+                      text-align: center;
+                    }
+
+                    .slider_style_3 .slide-icon img {
+                      display: inline-block;
+                    }
+
+                    .slider-1551160645059-list .slide-offer-text span {
+                      color: ;
+                      font-weight: bold;
+                    }
+
+                    @media screen and (min-width: 320px) and (max-width: 767px) {
+                      .slider-1551160645059-list:before {
+                        position: absolute;
+                        top: 0;
+                        content: "";
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(104, 96, 94, 0.6);
+                      }
+                    }
+                  </style>
+                </div>
+                <div class="slick-list slider_style_3 slider-1551160645059-list">
+                  <img src="cdn/shop/files/homeo-slide.png" class="slide-img medium-down--hide"
+                    alt="" />
+
+                  <img src="cdn/shop/files/homeo-slide.png"
+                    class="slide-img wide--hide post-large--hide large--hide" alt="" />
+
+                  <div class="slider-content slider-content-bg" style="">
+                    <div class="container">
+                      <div class="slide_left" style="">
+                        <h2 class="slide-heading animated" style="
+                              font-size: 100px;
+
+                              color: #3d3938;
                             ">
                           Homeopathy
                         </h2>
@@ -1719,6 +1875,112 @@
                       
 
                         <a href="blogs/news/homeopathy.html" class="slide-button animated btn">
+                       Know more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                    .slider_style_3 .slider-content {
+                      text-align: center;
+                    }
+
+                    .slider_style_3 .slide-icon img {
+                      display: inline-block;
+                    }
+
+                    .slider-1551160645059-list .slide-offer-text span {
+                      color: ;
+                      font-weight: bold;
+                    }
+
+                    @media screen and (min-width: 320px) and (max-width: 767px) {
+                      .slider-1551160645059-list:before {
+                        position: absolute;
+                        top: 0;
+                        content: "";
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(104, 96, 94, 0.6);
+                      }
+                    }
+                  </style>
+                </div>
+                <div class="slick-list slider_style_3 slider-1551160645059-list">
+                  <img src="cdn/shop/files/physio-slide.jpg" class="slide-img medium-down--hide"
+                    alt="" />
+
+                  <img src="cdn/shop/files/physio-slide.jpg"
+                    class="slide-img wide--hide post-large--hide large--hide" alt="" />
+
+                  <div class="slider-content slider-content-bg" style="">
+                    <div class="container">
+                      <div class="slide_left" style="">
+                        <h2 class="slide-heading animated" style="
+                              font-size: 100px;
+
+                              color: #3d3938;
+                            ">
+                          Physiotherapy
+                        </h2>
+
+                      
+
+                        <a href="blogs/news/physiotherapy.html" class="slide-button animated btn">
+                       Know more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                    .slider_style_3 .slider-content {
+                      text-align: center;
+                    }
+
+                    .slider_style_3 .slide-icon img {
+                      display: inline-block;
+                    }
+
+                    .slider-1551160645059-list .slide-offer-text span {
+                      color: ;
+                      font-weight: bold;
+                    }
+
+                    @media screen and (min-width: 320px) and (max-width: 767px) {
+                      .slider-1551160645059-list:before {
+                        position: absolute;
+                        top: 0;
+                        content: "";
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(104, 96, 94, 0.6);
+                      }
+                    }
+                  </style>
+                </div>
+                <div class="slick-list slider_style_3 slider-1551160645059-list">
+                  <img src="cdn/shop/files/siddha-slide.jpg" class="slide-img medium-down--hide"
+                    alt="" />
+
+                  <img src="cdn/shop/files/siddha-slide.jpg"
+                    class="slide-img wide--hide post-large--hide large--hide" alt="" />
+
+                  <div class="slider-content slider-content-bg" style="">
+                    <div class="container">
+                      <div class="slide_left" style="">
+                        <h2 class="slide-heading animated" style="
+                              font-size: 100px;
+
+                              color: #3d3938;
+                            ">
+                          Siddha
+                        </h2>
+
+                      
+
+                        <a href="blogs/news/siddha.html" class="slide-button animated btn">
                        Know more
                         </a>
                       </div>
@@ -2195,7 +2457,7 @@
                   <div class="triangle-icon-wrapper">
                     <div
                       class="grid__item wide--one-third post-large--one-third large--one-third medium--one-half small-grid__item wow fadeInUp animated">
-                      <div class="icon_wrapper icon-left">
+                      <div class="icon_wrapper icon-right">
                         <div class="icon" style="border: 3px solid #b8cab4">
                           <span>
                             <img src="cdn/shop/files/icon-img-4_grandedb2c.png?v=1613526559" alt="" title="" style="" />
@@ -2203,7 +2465,7 @@
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">Individual Approach</a>
                           </h4>
 
@@ -2211,13 +2473,13 @@
                         </div>
                       </div>
 
-                      <div class="icon_wrapper icon-left">
+                      <div class="icon_wrapper icon-right">
                         <div class="icon" style="border: 3px solid #ddad9f">
                           <img src="cdn/shop/files/icon-img-5_grandedb2c.png?v=1613526559" alt="" title="" style="" />
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">Friendly Atmosphere</a>
                           </h4>
 
@@ -2225,13 +2487,13 @@
                         </div>
                       </div>
 
-                      <div class="icon_wrapper icon-left">
+                      <div class="icon_wrapper icon-right">
                         <div class="icon" style="border: 3px solid #ddb2c6">
                           <img src="cdn/shop/files/icon-img-3_grandedb2c.png?v=1613526559" alt="" title="" style="" />
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">With a Touch of Kindness</a>
                           </h4>
 
@@ -2242,7 +2504,7 @@
 
                     <div
                       class="grid__item wide--one-third post-large--one-third large--one-third medium--one-half small-grid__item wow fadeInUp animated">
-                      <div class="center-block" style="">
+                      <div class="center-block" style=""><br>
                         <img src="cdn/shop/files/section2_grande0767.jpg?v=1613525604" alt="" />
                       </div>
                     </div>
@@ -2255,7 +2517,7 @@
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">Advanced Proven Procedures</a>
                           </h4>
 
@@ -2269,7 +2531,7 @@
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">Most Effective Treatment</a>
                           </h4>
 
@@ -2283,7 +2545,7 @@
                         </div>
 
                         <div class="icon-content">
-                          <h4>
+                          <h4><br>
                             <a style="color: #535353" href="#">Certified Therapist</a>
                           </h4>
 

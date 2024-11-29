@@ -527,6 +527,20 @@
     data-shop-id="6748536868" data-render-region="gcp-asia-southeast1" data-page-type="page"
     data-theme-instance-id="16732356644" data-monorail-region="shop_domain"
     data-resource-timing-sampling-rate="10"></script>
+
+    <style>
+      @media only screen and (max-width: 576px) {
+        .contact_us
+        {
+          font-size: 10px;
+          padding-left: 5px;
+         
+        }
+      }
+      
+          </style>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
 <body id="contact-us" class="template-page ">
@@ -560,17 +574,20 @@
 
               <div class="top_bar_menu">
                
-                    <ul class="top_bar_right">
+                    <ul >
 
-                      <li><span>Call Us : +91 88257 89465</span></li>
+                      <li><span class="contact_us">Call Us : +91 88257 89465</span></li>
 
 
-                      <li>
-                        +91 72002 54770
+                      <li >
+                        <span class="contact_us">
+                          +91 72002 54770
+                        </span>
+                      
                        </li>
 
                     </ul>
-                  </li>
+              
 
                 </ul>
               </div>
@@ -1034,14 +1051,78 @@
 
 
                     /* Header borders */
+                    #pages
+{
+  z-index: -1;
+
+  padding-top: 0px;
+
+  padding-bottom: 10px;
+}
+
+.blink
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding: 3px;
+    text-decoration: none;
+    background-color: #116566;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 5px;
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes blink {
+    0% { color: #f2e396 ;}
+    50%{ color: #f2e396;}
+    100% {color: #fff; }
+}
+
+@media only screen and (max-width: 576px) {
+
+  #pages
+{
+  margin-top: -5px;
+  font-size: 10px;
+  
+  padding-top: 0px;
+
+  padding-bottom: 8px;
+ 
+}
+.blink
+{
+
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    background-color: #116566;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 6px;
+    border-radius: 20px;
+
+    animation-name: blink;
+    animation-direction:alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+.mtitle{
+  font-size: 5vw;
+}
+}
+
+                  /* Header borders */
                   </style>
-
-
-
-
-
-
-
                 </div>
               </div>
             </div>
@@ -1050,27 +1131,35 @@
       </header>
     </div>
   </div>
-
-  <div class="container-fluid" style="background-color:#116466 ;">
-    <center>
-   <span class="namepng" ><img id="namepng" src="../name.png" style="padding-top: 20px;" alt=""></span> 
-  
-    </center>
-  
-    <div class="" id="pages">
-      <center>
-        
-        <a href="../blogs/news/naturopathy.html"><b>NATUROPATHY |</b> </a>
-        <a href="../blogs/news/yoga.html"><b>YOGA |</b></a>
-        <a href="../blogs/news/acupunture.html"><b>ACUPUNTURE |</b></a>
-        <a href="../blogs/news/homeopathy.html"><b>HOMEOPATHY |</b></a>
-        <a href="../blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY |</b></a>
-        <a href="../blogs/news/siddha.html"><b>SIDDHA</b></a>
-      </center>
+ 
+<div class="container-fluid" style="background-color:#116466 ;">
+  <center>
     
-    </div>
-  
-  </div>
+    <span class="namepng" > <img class="normal-logo" width="100px" style="margin-top: 10px; "  src="../cdn/shop/t/2/assets/logo5d901.png?v=89476430785516106241551332190"
+      alt="" itemprop="logo" /></span> 
+
+  </center>
+<div>
+  <center>
+    <h1 class="mtitle" style="font-family: 'Times New Roman', Times, serif;font-size: 3vw;  padding-bottom: 10px;color: #f2e396;">YUKTHI AYUSH CLINIC & RESEARCH CENTER</h1>
+  </center>
+  <h1></h1>
+</div>
+
+
+</div>
+<div class="" id="pages">
+  <center>
+    
+    <a class="blink" href="../blogs/news/naturopathy.html"><b>NATUROPATHY </b> </a>
+    <a class="blink" href="../blogs/news/yoga.html"><b>YOGA </b></a>
+    <a class="blink" href="../blogs/news/acupunture.html"><b>ACUPUNTURE </b></a>
+    <a class="blink" href="../blogs/news/homeopathy.html"><b>HOMEOPATHY </b></a>
+    <a class="blink" href="../blogs/news/physiotherapy.html"><b>PHYSIOTHERAPY </b></a>
+    <a class="blink" href="../blogs/news/siddha.html"><b>SIDDHA</b></a>
+  </center>
+
+</div>
 
 
   <main class="main-content">
@@ -1082,10 +1171,10 @@
 
 
       <h1>Contact us</h1>
-      <a href="../index.html" title="Back to the frontpage">Home</a>
+      <!-- <a href="../index.html" title="Back to the frontpage">Home</a>
 
       <span aria-hidden="true" class="breadcrumb__sep">&#47;</span>
-      <span>Contact us</span>
+      <span>Contact us</span> -->
 
 
     </nav>
@@ -1107,84 +1196,7 @@
 
 
 
-                <div class="contact-address">
-                  <div class="container">
-                    <div class="inner-contact">
-                      <div class="contact-style">
-                        <div class="dt-sc-hr-invisible-large"></div>
-                        <div class="justify-content-center" id="thumb">
-<center>
-                          <ul class="">
-                            <li class="grid__item wide--one-quarter post-large--one-half large--one-half">
-                              <div class="icon-wrapper">
-                                <div class="icon">
-                                  <i class="fa fa-phone"></i>
-                                </div>
-
-                                <h4>TALK TO US</h4>
-                                <p>+91 88257 89465 <br>+91 72002 54770</p><mark></mark>
-
-                              </div>
-                            </li>
-
-                            <li class="address grid__item wide--one-quarter post-large--one-half large--one-half">
-                              <div class="icon-wrapper">
-                                <div class="icon">
-                                  <i class="fa fa-home"></i>
-                                </div>
-                                <h4>LOCATION</h4>
-                                <p> No:W-629, West Gate Road, (opp - SBOA CBSE School West gate), D-Sector, Annanagar West Extension, Chennai - 600101<br /></p><mark></mark>
-                              </div>
-                            </li>
-
-
-                            <li class="hours grid__item wide--one-quarter post-large--one-half large--one-half">
-                              <div class="icon-wrapper">
-                                <div class="icon">
-                                  <i class="fas fa-clock"></i>
-                                </div>
-                                <h4>OPENING HOURS</h4>
-                                <p> Mon – Sat 9 am to 8 pm<br /> Sun – 10 am to 3 pm</p>
-                              </div>
-                            </li>
-
-                          </ul>
-                        </center>
-                        </div>
-                        <div class="dt-sc-hr-invisible-medium"></div>
-                        <div class="grid__item">
-                          <div class="contact-form-section">
-                            <form method="post" action="https://momme-demo.myshopify.com/contact#contact_form"
-                              id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden"
-                                name="form_type" value="contact" /><input type="hidden" name="utf8" value="✓" />
-
-
-
-                              <label for="ContactFormName" class="label--hidden">Name</label>
-                              <input type="text" id="ContactFormName" name="contact[name]" placeholder="Name"
-                                autocapitalize="words" value="">
-                              <label for="ContactFormEmail" class="label--hidden">Email</label>
-                              <input type="email" id="ContactFormEmail" name="contact[email]" placeholder="Email"
-                                autocorrect="off" autocapitalize="off" value="">
-
-                              <label for="ContactFormSub" class="label--hidden">Phone</label>
-                              <input type="text" id="ContactFormSub" name="contact[subject]" placeholder="Subject"
-                                autocapitalize="words" value="">
-                              <label for="ContactFormMessage" class="label--hidden">Message</label>
-                              <textarea rows="7" id="ContactFormMessage" name="contact[body]"
-                                placeholder="Message"></textarea>
-                              <button type="submit" class="btn">Send</button>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <style>
-
-                   
-                   
+                  <style>    
                     .contact-address .icon {
                       border-radius: 50%;
                       display: inline-block;
@@ -1256,7 +1268,59 @@
         </div>
       </div>
     </div>
+    <br><br>       
 
+    <div class="container col-md-9 text-center">
+                    <div class="row justify-content-center">
+                      <div class="card my-1 mx-1 col-lg-4 col-sm-12" style="border: 2px solid rgb(236, 218, 203); width: 18rem;">
+                        <div class="card-body">
+                          <div class="icon-wrapper">
+                            <center>
+                                <div class="icon" style="width: 50px; height: 50px; margin-bottom: 25px ; padding-top: 10px; position: relative;color: #fff; background-color: #a7b3ab; border-radius: 50%;">
+                                  
+                                  <i class="fa fa-phone" ></i>
+                                </div>
+                          <h4><b>TALK TO US</b></h4>
+                          <p>+91 88257 89465 <br>+91 72002 54770</p>
+                        </center>
+
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="card my-1 mx-1 col-lg-4 col-sm-12" style="border: 2px solid rgb(236, 218, 203); width: 18rem;">
+                        <div class="card-body">
+                          <div class="icon-wrapper">
+                            <center>
+                                <div class="icon" style="width: 50px; height: 50px; margin-bottom: 25px ; padding-top: 10px; position: relative;color: #fff; background-color: #a7b3ab; border-radius: 50%;">
+                                  
+                                  <i class="fa fa-home" ></i>
+                                </div>
+                                <h4><b>LOCATION</b></h4>
+                                <p> No:W-629, West Gate Road, (opp - SBOA CBSE School West gate), D-Sector, Annanagar West Extension, Chennai - 600101<br /></p>
+                        </center>
+                          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card my-1 mx-1 col-lg-4 col-sm-12" style="border: 2px solid rgb(236, 218, 203); width: 18rem;">
+                        <div class="card-body">
+                          <div class="icon-wrapper">
+                            <center>
+                                <div class="icon" style="width: 50px; height: 50px; margin-bottom: 25px ; padding-top: 10px; position: relative;color: #fff; background-color: #a7b3ab; border-radius: 50%;">
+                                  
+                                  <i class="fa fa-clock" ></i>
+                                </div>
+                                <h4><b>OPENING HOURS</b></h4>
+                                <p><b> Mon - Sat</b> <br> 09:00 am - 12:00 pm <br>04:00 pm - 09:00 pm<br><b>Sun</b><br> <span>09:00 am - 01:00 pm</span></p>
+                            </center>
+                                
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      </div>
 
 
     <div class="dt-sc-hr-invisible-large"></div>
@@ -1391,22 +1455,7 @@
           z-index: -1;
         }
 
-        #pages
-{
-  z-index: -1;
-  margin-top: -80px;
-  padding-bottom: 20px;
-}
-@media only screen and (max-width: 576px) {
-  #pages
-{
-  z-index: -1;
-  font-size: 7px;
   
-  margin-top: -35px;
-  padding-bottom: 20px;
-}
-}
       </style>
     </div>
 

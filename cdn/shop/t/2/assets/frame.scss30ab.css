@@ -4020,7 +4020,7 @@ a.btn--tertiary {
 
 @media screen and (max-width: 767px) {
     .top-bar-type-4 .top_bar_right {
-        float: none;
+        /* float: none; */
         display: inline-block;
         width: 100%;
         text-align: center;

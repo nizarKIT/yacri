@@ -1169,7 +1169,7 @@
     <div class="container px-5">
       <img src="./image/yoga1.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="100%"  loading="lazy">
     </div>
-  </div> -->
+  </div> 
   
   <main class="">
     <div>
@@ -1336,8 +1336,97 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(236, 218, 203) 100
             
 
 
-    <div class="dt-sc-hr-invisible-large"></div>
-
+    <div class="dt-sc-hr-invisible-large"></div> -->
+    <div class="container">
+      <h2 class="text-center mb-4">Book Your Appointment</h2>
+      <form id="appointmentForm">
+        <!-- Name -->
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+  
+        <!-- Mobile -->
+        <div class="mb-3">
+          <label for="mobile" class="form-label">Mobile</label>
+          <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number" required>
+        </div>
+  
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+  
+        <!-- Treatment -->
+        <div class="mb-3">
+          <label for="treatment" class="form-label">Treatment</label>
+          <select class="form-select" id="treatment" required>
+            <option value="" disabled selected>Select a treatment</option>
+            <option value="Naturopathy">Naturopathy</option>
+            <option value="Homeopathy">Homeopathy</option>
+            <option value="Physiotherapy">Physiotherapy</option>
+            <option value="Siddha">Siddha</option>
+          </select>
+        </div>
+  
+        <!-- Preferred Slot -->
+        <div class="mb-3">
+          <label for="slot" class="form-label">Preferred Slot</label>
+          <select class="form-select" id="slot" required>
+            <option value="" disabled selected>Select a slot</option>
+            <optgroup label="Monday to Saturday">
+              <option value="09.00 am – 12.00 pm (Mon-Sat)">09.00 am – 12.00 pm</option>
+              <option value="04.00 pm – 09.00 pm (Mon-Sat)">04.00 pm – 09.00 pm</option>
+            </optgroup>
+            <optgroup label="Sunday">
+              <option value="09.00 am – 01.00 pm (Sunday)">09.00 am – 01.00 pm</option>
+            </optgroup>
+          </select>
+        </div>
+  
+        <!-- Description -->
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea class="form-control" id="description" rows="4" placeholder="Enter additional details"></textarea>
+        </div>
+  
+        <!-- Send Button -->
+        <button type="button" class="btn btn-primary" id="sendButton">Send via WhatsApp</button>
+      </form>
+    </div>
+  
+    <script>
+      document.getElementById('sendButton').addEventListener('click', function () {
+        // Collect form data
+        const name = document.getElementById('name').value;
+        const mobile = document.getElementById('mobile').value;
+        const email = document.getElementById('email').value;
+        const treatment = document.getElementById('treatment').value;
+        const slot = document.getElementById('slot').value;
+        const description = document.getElementById('description').value;
+  
+        // Validate form data
+        if (!name || !mobile || !email || !treatment || !slot) {
+          alert('Please fill out all fields.');
+          return;
+        }
+  
+        // Format WhatsApp message
+        const whatsappMessage = `Hello,%0A%0AHere are the details for an appointment:%0A%0A` +
+          `*Name:* ${encodeURIComponent(name)}%0A` +
+          `*Mobile:* ${encodeURIComponent(mobile)}%0A` +
+          `*Email:* ${encodeURIComponent(email)}%0A` +
+          `*Treatment:* ${encodeURIComponent(treatment)}%0A` +
+          `*Preferred Slot:* ${encodeURIComponent(slot)}%0A` +
+          `*Description:* ${encodeURIComponent(description)}%0A%0A` +
+          `*_Thank you!_*`;
+  
+        // Open WhatsApp
+        const whatsappURL = `https://wa.me/+919943902608?text=${whatsappMessage}`;
+        window.open(whatsappURL, '_blank');
+      });
+    </script>
   </main>
 
 
